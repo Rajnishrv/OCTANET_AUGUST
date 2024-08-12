@@ -40,13 +40,14 @@ body{
    font-family: "Edu VIC WA NT Beginner", cursive;
  } 
  .todo{
-    width: 370px;
+    width: 375px;
     padding: 33px;
     max-height: 500px;
     text-align: center;
     background-color: #fff;
     overflow-y: scroll;
     border-radius: 8px;
+    align-items: center;
  }
  input{
     width: 280px;
@@ -113,5 +114,8 @@ body{
       text-align: left;
       margin: 5px 5px;
       width: 220px;
+   }
+   .navbar{
+      padding: 10px 30px;
    }
  }
